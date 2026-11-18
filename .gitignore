@@ -1,0 +1,10 @@
+# pharos-oss/calendar holds exactly one thing: the generated .ics.
+# Everything else is ignored, so the publish step's `git add -A`
+# can never commit stray files.
+
+# Ignore everything...
+*
+
+# ...except the calendar itself and this file.
+!.gitignore
+!*.ics
